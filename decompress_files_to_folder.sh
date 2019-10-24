@@ -17,7 +17,7 @@ function setup {
 }
 
 function move_to_downloads {
-    mv 'decompress_files_to_folder.sh' ~/Downloads
+    cp 'decompress_files_to_folder.sh' ~/Downloads
 }
 
 move_to_downloads
